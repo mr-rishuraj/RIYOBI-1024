@@ -20,8 +20,8 @@ export default function CustomerDashboard({ onNavigateHome }) {
   // Customer data - this would come from props or API in real app
   const [customer] = useState({
     id: 1,
-    name: 'Priya Sharma',
-    email: 'priya.sharma@email.com',
+    name: 'Yugansh Nehra',
+    email: 'Yugansh.Nehra@email.com',
     phone: '+91 98765 43210',
     address: '123 MG Road, Pilani, Rajasthan',
     joinDate: '2024-01-15',
