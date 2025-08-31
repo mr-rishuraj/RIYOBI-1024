@@ -45,15 +45,15 @@ const Navbar = ({ onNavigate }) => {
 
             {/* Center Navigation Links - New Section */}
             <div className="hidden lg:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
+              <a href="" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
                 Services
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
+              <a href="" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
                 Pricing
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
+              <a href="" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group">
                 Track Order
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </a>
@@ -151,16 +151,16 @@ const Navbar = ({ onNavigate }) => {
               <div className="px-2 pt-2 pb-4 space-y-3 bg-white border-t border-gray-100">
                 {/* Mobile Navigation Links */}
                 <div className="space-y-2 pb-4 border-b border-gray-100">
-                  <a href="#" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+                  <a href="" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
                     Customer Dashboard
                   </a>
-                  <a href="#" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+                  <a href="" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
                     Services
                   </a>
-                  <a href="#" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+                  <a href="" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
                     Pricing
                   </a>
-                  <a href="#" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+                  <a href="" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
                     Track Order
                   </a>
                 </div>
