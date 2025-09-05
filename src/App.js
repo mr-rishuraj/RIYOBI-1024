@@ -9,6 +9,7 @@ import Footer from './components/layout/Footer';
 import DhobiDashboard from './components/Dashboard/DhobiDashboard';
 import CustomerDashboard from './components/Dashboard/CustomerDashboard'; // Import your CustomerDashboard
 import './App.css';
+import ClothesInput from './components/sections/ClothesInput';
 
 function App() {
   const [currentView, setCurrentView] = useState('landing');
@@ -29,6 +30,10 @@ function App() {
   // If customer dashboard view is selected, show only the customer dashboard
   if (currentView === 'customer-dashboard') {
     return <CustomerDashboard onNavigateHome={() => setCurrentView('landing')} />;
+  }
+
+   if (currentView === 'clothes-input') {
+    return <ClothesInput onNavigateHome={() => setCurrentView('landing')} />;
   }
 
   // Otherwise show the landing page

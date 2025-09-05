@@ -64,6 +64,14 @@ const Navbar = ({ onNavigate }) => {
                 Customer Dashboard
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </button>
+
+               <button 
+                onClick={() => onNavigate('clothes-input')}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+              >
+                Clothes Input
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+              </button>
             </div>
 
             {/* Desktop Menu - Enhanced */}
@@ -152,9 +160,6 @@ const Navbar = ({ onNavigate }) => {
                 {/* Mobile Navigation Links */}
                 <div className="space-y-2 pb-4 border-b border-gray-100">
                   <a href="/" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
-                    Customer Dashboard
-                  </a>
-                  <a href="/" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
                     Services
                   </a>
                   <a href="/" className="block text-gray-700 hover:text-blue-600 px-4 py-2 rounded-lg font-medium transition-colors duration-200">
@@ -185,6 +190,15 @@ const Navbar = ({ onNavigate }) => {
                   <User className="h-4 w-4 mr-2 inline" />
                   Dhobi Dashboard
                 </button>
+
+                <button 
+                  onClick={() => onNavigate('customer-dashboard')}
+                  className="block w-full text-left text-gray-700 hover:text-blue-600 bg-gray-50 hover:bg-gray-100 px-4 py-3 rounded-xl font-medium transition-all duration-200"
+                >
+                  <User className="h-4 w-4 mr-2 inline" />
+                  Customer Dashboard
+                </button>
+                
               </div>
             </div>
           )}
